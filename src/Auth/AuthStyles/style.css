@@ -1,0 +1,114 @@
+.login, .forgotpassword, .signup {
+    min-height: 200px;
+    width: 60%;
+    margin: 20px auto ;
+    text-align: center;
+
+}
+
+.login form, .forgotpassword form, .signup form {
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.login input, .forgotpassword input, .signup input {
+ margin: 10px;
+}
+
+
+
+.forgotpasswordPageContainer {
+  height: 100vh;
+  width: 100%;
+  background: #DDA005;
+  position:fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+
+.loginPageContainer {
+  height: 100vh;
+  width: 100%;
+  background: #65B4D0;
+  position:fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+
+.signupPageContainer {
+  height: 100vh;
+  width: 100%;
+  background: #093545;
+  position:fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+
+h1 {
+  color:rgb(252, 249, 249);
+  font-size:50px;
+}
+
+.sign-up {
+  align-items: center;
+  background-color: #093545;
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  padding: 157px 0;
+  width: 1280px;
+}
+
+
+
+.logInOut {
+  position: absolute;
+  top:0px;
+  font-size: 10px;
+  right: 30px;
+}
+
+
+.login button {
+  margin: 5px;
+  background: rgb(26, 197, 228);
+  border: .4em;
+  padding: 10px;
+  border-radius: .4em;
+  color: white;
+  font-weight:bold;
+  box-shadow: 0px 2px 66px -24px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 66px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 66px -24px rgba(0,0,0,0.75);
+  cursor:pointer;
+  transition: all .4s;
+}
+
+.login button:hover {
+  background: rgb(19, 148, 170);
+}
+
+
+.input {
+  border-radius: .4em;
+  padding: 10px;
+  border: 0px;
+  min-width: 270px
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
